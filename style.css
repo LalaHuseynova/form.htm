@@ -1,127 +1,133 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    background:url(img/bg2.jpg) no-repeat ;
+
+body {
+    background: url(img/bg2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     width: 700px;
-   
     margin: auto;
 }
-.container{
-    width: 100%;
-  border: 2px solid rgba(255, 255, 255, .2);
-  border-radius: 15px;
-  box-shadow: 0px 3px 5px rgb(104, 2, 89);
-  backdrop-filter: blur(20px);
-   background: transparent;
-   margin: 100px 40px;
-   padding: 45px;
 
+.container {
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgb(104, 2, 89);
+    backdrop-filter: blur(20px);
+    background: transparent;
+    margin: 100px 10px;
+    padding: 45px;
 }
-.container h1{
+
+.container h1 {
     font-size: 3em;
     color: white;
     text-align: center;
     margin: 30px;
-    padding:15px;
+    padding: 15px;
 }
-.inputbox{
-  
-  
+
+.inputbox {
+    position: relative;
     font-size: larger;
     padding: 12px;
     margin: 14px;
 }
-.inputbox input{
+
+.user i {
+    position: absolute;
+    right: 30px;
+    top: 13%;
+    size: 15px;
+    color: white;
+}
+
+.lock i {
+    position: absolute;
+     right: 30px;
+    top: 57%;
+    size: 15px;
+    color: white;
+}
+
+.inputbox input {
     width: 100%;
     height: 55px;
     margin-bottom: 40px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 51px;
-    font-size: 25px;
-    font-family: sans-serif;
+    font: 25px sans-serif;
     padding-left: 25px;
     color: white;
-
-
-
 }
-.inputbox input::placeholder{
+
+.inputbox input::placeholder {
     color: white;
 }
 
-.remember{
-
-   color: white;
-   font-size: 25px;
-   margin-left: 20px;
-   margin-bottom: 30px;
-   margin-top: 10px;
+.remember {
+    color: white;
+    font-size: 25px;
+    margin: 10px 0px 30px 20px;
 }
-.remember a{
 
-  margin-left: 220px;
+.remember a {
+     margin-left: 220px;
     text-decoration: none;
     color: white;
- 
- 
 }
-.remember a:hover{
 
+.remember a:hover {
     text-decoration: underline;
-    
-       }
-       .remember a:active{
-    
-      
-        color:black;
-       }
-.message{
+}
+
+.remember a:active {
+     color: black;
+}
+
+.message {
     color: white;
-   font-size: 25px;
-   text-align: center;
-}
-.message a{
-
-   margin-left: 23px;
-      text-decoration: none;
-      color: white;
-  }
- 
-  .message a:hover{
-
-text-decoration: underline;
-
-   }
-   .message a:active{
-
-  
-    color:black;
-   }
-.submit{
+    font-size: 25px;
     text-align: center;
- 
-  padding-top: 13px;
-  padding-bottom: 13px;
 }
-.submit button{
+
+.message a {
+    margin-left: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.message a:hover {
+     text-decoration: underline;
+}
+
+.message a:active {
+     color: black;
+}
+
+.submit {
+    text-align: center;
+    padding: 13px 0px 13px 0px;
+}
+
+.submit button {
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 12px;
     width: 75%;
     height: 45px;
     font-size: 26px;
-    background:white ;
-    color: rgb(94, 1, 137);   
+    background: white;
+    color: rgb(94, 1, 137);
 }
-.submit button:hover{
-background:transparent;
-color: white;
-}
-.submit button:active{
-    background-color: rgba(62, 22, 140,.5);
 
-    }
-    
+.submit button:hover {
+    background: transparent;
+    color: white;
+}
+
+.submit button:active {
+    background-color: rgba(62, 22, 140, .5);
+}

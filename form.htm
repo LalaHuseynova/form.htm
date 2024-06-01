@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -13,33 +16,33 @@
     <div class="container">
         <h1>Login</h1>
         <form action="">
-        <div class="inputbox">
+            <div class="inputbox">
 
-            <input type="text" id="username" placeholder="Username" required>
+                <input type="text" id="username" placeholder="Username" required>
+              
+              <div class="user">
+                <i class='bx bxs-user'></i>
+              </div>
+                
+              <input type="password" id="password" placeholder="12345678" maxlength="8" required>
+              <div class="lock">
+              <i class='bx bxs-lock-alt'></i>
+            </div>
+            </div>
 
-            <input type="password" id="password" placeholder="12345678" maxlength="8" required>
+            <div class="remember">
+                <label for="reg"><input type="checkbox" id="reg">Remember me</label>
+                <a href="#">Forgot password ?</a>
+            </div>
 
 
-        </div>
-
-        <div class="remember">
-            <label for="reg"><input type="checkbox" id="reg">Remember me</label>
-            <a href="#">Forgot password ?</a>
-        </div>
-
-
-
-
-
-
-
-        <div class="submit">
-            <button type="submit">Register</button>
-        </div>
-        <div class="message">
-            <p>Do not have an account ? <a href="#">SignUp</a></p>
-        </div>
-    </form>
+            <div class="submit">
+                <button type="submit">Register</button>
+            </div>
+            <div class="message">
+                <p>Do not have an account ? <a href="#">SignUp</a></p>
+            </div>
+        </form>
     </div>
 
 </body>
